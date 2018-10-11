@@ -13,7 +13,7 @@ This and other SPSS Python Extension functions can be found at http://www.stat-h
 * "syntaxFile" is an optional argument that contains the name of a syntax file to which the syntax used to generate the value labels will be written
 
 ## Example
-**combineValuesLabels("schoolNum", "schoolName", 
+**combineValuesLabels(valueVar = "schoolNum", labelVar = "schoolName", 
     syntaxFile = "c:\research\school project\schoolNum values.sps")** 
 * This would add values to the schoolNum variable that are based on the corresponding values in the schoolName variable. 
 * The syntax used to create the value labels will be saved to the file "c:\research\school project\schoolNum values.sps".
